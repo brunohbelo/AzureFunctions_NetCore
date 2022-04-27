@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoStorageIsolated", "AzureFunction\PhotoStorageIsolated.csproj", "{E152A470-49DE-4A1E-83C8-382EFA1B5381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoStorage", "PhotoStorage\PhotoStorage.csproj", "{CD4806E2-E719-4616-97B5-645D24282ABD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E152A470-49DE-4A1E-83C8-382EFA1B5381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E152A470-49DE-4A1E-83C8-382EFA1B5381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E152A470-49DE-4A1E-83C8-382EFA1B5381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E152A470-49DE-4A1E-83C8-382EFA1B5381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4806E2-E719-4616-97B5-645D24282ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4806E2-E719-4616-97B5-645D24282ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4806E2-E719-4616-97B5-645D24282ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4806E2-E719-4616-97B5-645D24282ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA44C3D2-D444-4900-9567-7F72E51810D8}
+	EndGlobalSection
+EndGlobal
