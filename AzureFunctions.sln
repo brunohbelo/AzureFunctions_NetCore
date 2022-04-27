@@ -5,7 +5,12 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoStorageIsolated", "AzureFunction\PhotoStorageIsolated.csproj", "{E152A470-49DE-4A1E-83C8-382EFA1B5381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoStorage", "PhotoStorage\PhotoStorage.csproj", "{CD4806E2-E719-4616-97B5-645D24282ABD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoStorage", "PhotoStorage\PhotoStorage.csproj", "{CD4806E2-E719-4616-97B5-645D24282ABD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PostmanCollection", "PostmanCollection", "{49DA660F-4542-45FE-8292-1CCE6A3B1520}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Belo\Desktop\AzureFunctionTests.postman_collection.json = C:\Users\Belo\Desktop\AzureFunctionTests.postman_collection.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
