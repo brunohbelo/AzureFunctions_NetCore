@@ -29,6 +29,11 @@ namespace PhotoStorageIsolated.Functions
             var body = await new StreamReader(req.Body).ReadToEndAsync();
             var request = JsonConvert.DeserializeObject<PhotoUploadModel>(body);
 
+            if(string.IsNullOrEmpty(request.Name))
+            {
+                throw new ArgumentNullException("Name must not be blank");
+            }
+
             var photoBlobId = await _blobStoragePhotoSerivce.UploadNewPhoto(request.Photo);
             logger.LogInformation($"Successfuly uploaded {photoBlobId} a .jpg file");
 

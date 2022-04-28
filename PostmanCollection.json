@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "9d7a3923-0dd3-4391-9e3e-12b97aab99df",
+		"name": "AzureFunctionTests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"Name\": \"Bruno Belo\",\r\n\t\"Description\": \"My profile picture\",\r\n\t\"Tags\": [\r\n\t\t\"portrait\",\r\n\t\t\"picture\"\r\n\t],\r\n\t\"Photo\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/PhotoStorage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"PhotoStorage",
+						"Upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
